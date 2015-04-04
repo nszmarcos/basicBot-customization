@@ -83,8 +83,6 @@
             ["theme", "Bota outra - fora do tema/evento"],
             ["op", "Essa porra toca demais! porra!, HAIL SATAN"],
             ["history", "Ja tocou essa merda jumento, olha o caralho do historico, ALLAHU AKBAAR"],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "Oba, tetinhas, mas se fodeu vou pular, ALAHU AKBAAAAAAR"],
             ["erro", "Video indisponivel, como sou bonzinho, vou te jogar em 2 <3"]
         ],
