@@ -69,7 +69,7 @@
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
-        cycleGuard: true,
+        cycleGuard: false,
         maximumCycletime: 10,
         voteSkip: true,
         voteSkipLimit: 8,
@@ -86,11 +86,11 @@
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "Oba, tetinhas, mas se fodeu vou pular, ALAHU AKBAAAAAAR"],
-            ["unavailable", "Video indisponivel, como sou bonzinho, vou te jogar em 2 <3"]
+            ["erro", "Video indisponivel, como sou bonzinho, vou te jogar em 2 <3"]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
+        motdEnabled: true,
         motdInterval: 5,
         motd: "Entrem no nosso website e leia as regras/conheca a staff > http://italocjs.wix.com/panelinharadioativa",
         filterChat: true,
@@ -104,7 +104,7 @@
         website: "http://italocjs.wix.com/panelinharadioativa",
         intervalMessages: [],
         messageInterval: 5,
-        songstats: true,
+        songstats: false,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
