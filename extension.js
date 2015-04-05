@@ -47,6 +47,7 @@
                     var alahunum = Math.floor((Math.random() * 10) + 1);
                    API.sendChat("/me %%alahunum%%!!!");
             }
+            }
         };
 
         bot.commands.baconCommand = {
