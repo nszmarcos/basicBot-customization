@@ -47,19 +47,8 @@
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     
                     var alahunum = Math.floor((Math.random() * 10) + 1);
-                    
-                    if (alahunum > 8)
-                    {
-                    API.sendChat("/me SE FODEU, TOMOU BAN!!!");
-                    }
-                    if (alahunum > 2 && alahunum < 8)
-                    {
-                    API.sendChat("/me SE FODEU, FOI PRO ULTIMO!!!");
-                    }
-                    if (alahunum > 0 && alahunum <2)
-                    {
-                    API.sendChat("/me CAGAO, GANHOU FRIST!!!");
-                    }
+                    API.sendChat(alahunum);
+                   
                 }
             }
         };
