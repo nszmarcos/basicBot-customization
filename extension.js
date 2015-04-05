@@ -43,8 +43,8 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                 	 var alahunum = Math.floor((Math.random() * 10) + 1);
-
-                    API.sendChat("  %%alahunum%%  ");
+                    API.sendChat("/me ALLAHU AKBAAAR ALLAHU AKBAAAAAAAAAAAR!");
+                    API.sendChat(alahunum);
                 }
             }
         };
