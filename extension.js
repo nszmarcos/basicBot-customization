@@ -52,7 +52,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "BOT SADAN",
+        botName: "BOT OSAMA",
         language: "portuguese",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -73,7 +73,7 @@
         timeGuard: true,
         maximumSongLength: 5,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 1,
         usercommandsEnabled: true,
         lockskipPosition: 2,
         lockskipReasons: [
