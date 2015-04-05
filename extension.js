@@ -42,11 +42,13 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
+                	
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     
                     var alahunum = Math.floor((Math.random() * 10) + 1);
-                    if (var > 8)
+                    
+                    if (alahunum > 8)
                     {
                     API.sendChat("/me SE FODEU, TOMOU BAN!!!");
                     }
