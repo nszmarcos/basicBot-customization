@@ -48,7 +48,7 @@ functionality: function (chat, cmd) {
                     API.sendChat("/me ok");
                 }
             }
-        };
+        }
 
 
         bot.commands.baconCommand = {
