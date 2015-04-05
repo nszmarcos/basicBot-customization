@@ -42,14 +42,10 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                	
-                    API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     
                     var alahunum = Math.floor((Math.random() * 10) + 1);
-                    API.sendChat(alahunum);
-                   
-                }
+                   API.sendChat("/me %%alahunum%%!!!");
             }
         };
 
