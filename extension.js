@@ -44,16 +44,17 @@
                 else {
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
                     API.sendChat("/me ALLAHU AKBAAAAR ALLAHU AKBAAAAAAAAAAAR!!!");
-                     var alahunm = Math.floor((Math.random() * 10) + 1);
+                    
+                    var alahunum = Math.floor((Math.random() * 10) + 1);
                     if (var > 8)
                     {
                     API.sendChat("/me SE FODEU, TOMOU BAN!!!");
                     }
-                    if (var > 2 && var < 8)
+                    if (alahunum > 2 && alahunum < 8)
                     {
                     API.sendChat("/me SE FODEU, FOI PRO ULTIMO!!!");
                     }
-                    if (var > 0 && var <2)
+                    if (alahunum > 0 && alahunum <2)
                     {
                     API.sendChat("/me CAGAO, GANHOU FRIST!!!");
                     }
