@@ -40,7 +40,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Bacon!!!");
+                    API.sendChat("/me BACON É O CARALHO FILHO DA PUTA, VAI TOMAR BAN SE FICAR USANDO ESSA PORRA!!!");
                 }
             }
         };
