@@ -57,7 +57,7 @@
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: true, // true or false
-        chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/pt.json",
+        chatLink: "https://rawgit.com/italocjs/basicBot/master/lang/pt.json",
         maximumAfk: 20,
         afkRemoval: false,
         maximumDc: 5,
@@ -102,8 +102,8 @@
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/italocjs/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/italocjs/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
